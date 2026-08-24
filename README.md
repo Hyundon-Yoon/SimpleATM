@@ -24,6 +24,13 @@ test/
 ## Design
 ATM Controller depends on the 'IBank' interface rather than a concrete bank implementation.
 
+## Build & Test
+```bash
+cmake -S . -B build
+cmake --build build
+./build/atm_test
+```
+
 ## Test Result
 ```
 >> Insert Card test
